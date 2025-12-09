@@ -62,6 +62,9 @@ This approach mirrors how *real enterprise* teams build governed pipelines where
 
 <img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dataflow%20Gen2%20Lineage.png" height="1000">
 
+#### Demo:
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dataflow%20Gen2.gif" height="1000">
+
 [(Back to top)](#table-of-contents)
 
 ## 🖥Dashboard Highlights  
