@@ -30,6 +30,8 @@ The analysis helps HR answer:
 The goal is simple:  
 Deliver **maximum insight with minimal clutter**, using field parameters and a Dataflow Gen2 ETL pipeline.
 
+[(Back to top)](#table-of-contents)
+
 ## 🗂Dataset Overview  
 A clean HR dataset containing demographic, job, compensation, and satisfaction variables.  
 Key fields include:  
@@ -41,6 +43,8 @@ Key fields include:
 - **Attrition (Yes/No)**
 
 The dataset is fully anonymized and safe for public analytics use.
+
+[(Back to top)](#table-of-contents)
 
 ## 📊Data Pipeline (Dataflow Gen2)  
 I used Microsoft Fabric Dataflow Gen2 as the ETL layer for this project. Its purpose was to create a governed, enterprise-style data pipeline that feeds clean data into Power BI. Key responsibilities included:
@@ -58,6 +62,8 @@ This approach mirrors how *real enterprise* teams build governed pipelines where
 
 <img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dataflow%20Gen2%20Lineage.png" height="1000">
 
+[(Back to top)](#table-of-contents)
+
 ## 🖥Dashboard Highlights  
 The report is designed with clarity, readability, and high information density at its core.
 
@@ -73,6 +79,8 @@ Key features include:
 The dashboard is published to the *Power BI Service* in a dedicated workspace for easy access, sharing, and collaboration.
 
 ![Dashboard](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dashboard%20Overview.gif)
+
+[(Back to top)](#table-of-contents)
 
 ## 💡Insights
 
@@ -196,6 +204,8 @@ Employees with no travel obligations show the strongest retention.
 
 <img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Travel%20Needs.png" height="400">
 
+[(Back to top)](#table-of-contents)
+
 ## 🛠Recommendations
 
 Traditional HR analytics often relies on comparing multiple variables in isolation—for example, evaluating attrition separately by age, salary band, travel needs, overtime, and so on. While useful, this approach requires continuous manual cross-checking by analysts and HR teams to identify high-risk groups.
@@ -236,3 +246,6 @@ They only need to answer one question:
 If yes ➤ flag early ➤ intervene with precision.
 
 #### 🚀 Outcome: A System That Predicts, Not Just Describes
+
+[(Back to top)](#table-of-contents)
+
