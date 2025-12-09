@@ -12,12 +12,12 @@ Thanks for stopping by — hope you enjoy the project!
 [Dashboard Video Demo](#dashboard-video-demo)
 |**No.**  |**Section**|
 |:-: | :------------ | 
-|1.   |  [Business Problem](#business-problem)                              |
-|2.   |  [Existing Environment](#existing-environment)                              |
-|3.   |  [Technical Requirements](#technical-requirements)                              |
+|1.   |  [Project Objective and What It Solves](#project-objective-and-what-it-solves)                              |
+|2.   |  [Dataset Overview](#dataset-overview)                              |
+|3.   |  [Data Pipeline (Dataflow Gen2)](#data-pipeline-(dataflow-gen2))                              |
 |4.   |  [Highlight Features](#highlight-features)                              |
 |5.   |  [Future scope of the Dashboard](#future-scope-of-the-dashboard)                              |
-## 🎯 Project Objective & What It Solves
+## 🎯 Project Objective and What It Solves
 This project focuses on understanding **why employees leave** and identifying **which segments are most at risk** using a clean, high-information HR Attrition dashboard.
 
 The analysis helps HR answer:
