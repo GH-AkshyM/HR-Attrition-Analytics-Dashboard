@@ -57,21 +57,6 @@ This approach mirrors how *real enterprise* teams build governed pipelines where
 
 <img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dataflow%20Gen2%20Lineage.png" height="1000">
 
-## 📊 Data Model & Metrics  
-A simple, clean model optimized for performance and readability.  
-Key metrics include:  
-- **Total Employees**  
-- **Attrition Count**  
-- **Attrition Rate**  
-- Attrition by Department, Role, Age Band, Income Band, Tenure, Gender  
-
-Field parameters are used to switch between:  
-- Metrics  
-- Dimensions  
-- Categories  
-
-…without cluttering the canvas.
-
 ## 🖥 Dashboard Highlights  
 The report is designed with clarity, readability, and high information density at its core.
 
@@ -89,44 +74,180 @@ The dashboard is published to the *Power BI Service* in a dedicated workspace fo
 ![Dashboard](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dashboard%20Overview.gif)
 ## 💡 Insights & Recommendations
 
-### 🔍 Key Insights
-- **Mid-career employees (25–35 age band)** show significantly higher attrition, especially in customer-facing and high-pressure roles.
-- **Overtime is a major driver** — employees with frequent overtime leave at nearly 2x the rate of those with balanced schedules.
-- **Entry-level and mid-level job roles** in Sales and R&D have the highest turnover, indicating capability gaps or workload imbalance.
-- Employees with **low Job Satisfaction** or **poor Work–Life Balance** contribute disproportionately to attrition.
-- **Lower income bands** show higher attrition, pointing to potential compensation competitiveness issues.
-- Employees with **<2 years of tenure** are leaving the fastest, suggesting gaps in onboarding, mentoring, or career clarity.
-- High performers (in some roles) also show notable attrition, indicating *burnout*, not just disengagement.
+### Education Level
 
----
+Employees with No Formal Education show the highest attrition, indicating lower retention stability in this group.
+This aligns with industry patterns, where employees with fewer formal qualifications often transition more frequently due to limited growth opportunities or early-career mobility.
 
-### 🛠 Recommendations
-- **Targeted Retention for Mid-Career Employees**  
-  Offer improved career pathways, rotational programs, and clearer promotion criteria.
+### Age Groups
 
-- **Introduce Overtime Controls**  
-  Audit departments with excessive OT and implement workload balancing or staffing adjustments.
+The 26–35 age group records the highest attrition, reflecting the stage where professionals are most likely to switch roles for career growth, salary progression, or better job alignment.
+This age band naturally experiences:
 
-- **Strengthen Onboarding & First-Year Experience**  
-  Mentorship programs, structured learning paths, and frequent check-ins for new hires (<2 years).
+Increased career mobility
 
-- **Review Compensation Bands for Key Roles**  
-  Benchmark market salaries for Sales, R&D, and job levels with high attrition.
+Exposure to competitive job markets
 
-- **Engagement Programs for At-Risk Segments**  
-  Focus on departments with low satisfaction scores—run targeted pulse surveys and immediate corrective actions.
+Higher expectations for growth and recognition
 
-- **Promote Work–Life Balance**  
-  Encourage flexible shifts, optional remote days, or wellness time-offs in departments with high burnout signals.
+Dissatisfaction when career progression stagnates
 
-- **Retain High Performers Proactively**  
-  Provide stretch projects, recognition programs, and periodic career discussions before they disengage.
+As a result, employees in this group commonly exhibit the highest turnover.
 
----
+### Distance to Work
 
-These insights and recommendations tie directly into the dashboard and demonstrate practical business value—not just analytics.
+Employees living 0–10 km from the workplace show the highest attrition across distance bands.
+Within this group, 32.79% also report working overtime, suggesting a potential connection between workload intensity and turnover.
 
+However, commute distance alone is not enough to explain the pattern. Additional factors likely contribute, such as:
 
-## 🚀Future scope of the Dashboard
+Job demands and expectations
+
+Compensation alignment
+
+Managerial support levels
+
+Work–life balance
+
+Overtime distribution
+
+A multi-factor analysis is recommended to understand why employees closest to the workplace experience elevated attrition.
+
+### Gender
+
+Male employees show a slightly higher attrition rate compared to Female and Non-Binary employees.
+The differences, however, are relatively small—indicating that gender is not a major driver of attrition relative to other factors like job role, age, commute, or overtime.
+
+### Job Role
+
+Attrition varies sharply by job category:
+
+Sales-related roles (Sales Representative, Sales Executive) show the highest attrition, consistent with high-pressure, target-driven environments.
+
+Recruiters also experience elevated turnover due to rapid workload cycles and market fluctuations.
+
+Data Scientists show moderate attrition, matching industry norms where job switching is common due to strong demand and competitive pay.
+
+Technical roles such as Software Engineers, Machine Learning Engineers, and Senior Software Engineers show lower attrition, suggesting greater job stability and clearer career progression.
+
+### Marital Status
+
+Employees who are Single exhibit the highest attrition, nearly twice that of Married and Divorced employees.
+Married and Divorced groups show stronger stability, aligning with broader retention trends associated with life stage, mobility, and personal responsibilities.
+
+### Overtime
+
+Overtime is one of the strongest predictors of attrition.
+Employees who work overtime have an attrition rate nearly three times higher than those who do not.
+
+This pattern is systemic across demographics and job roles, and is typically driven by:
+
+Burnout and fatigue
+
+Work–life imbalance
+
+Elevated workload or staffing gaps
+
+Lower satisfaction in high-demand environments
+
+Reducing overtime or redistributing workload could significantly improve retention.
+
+### Salary Group
+
+Attrition decreases steadily as salary increases:
+
+Employees earning ₹0–50K have the highest attrition—more than double the rate of the highest salary group.
+
+Attrition declines across each salary tier, reaching its lowest among employees earning ₹300K+.
+
+This suggests:
+
+Salary is a major attrition driver for early-career or lower-paid employees.
+
+Competitive compensation strategies and salary benchmarking can significantly reduce turnover.
+
+Higher salary bands maintain stronger retention due to greater job satisfaction, stability, and experience.
+
+### State
+
+Geographical variation is modest but meaningful:
+
+California shows the highest attrition, indicating a more competitive and mobile job market.
+
+Illinois sits at a moderate level.
+
+New York shows the lowest attrition, reflecting comparatively stronger retention.
+
+Differences may stem from local job markets, cost of living, role distribution, and availability of career opportunities.
+
+### Stock Option Level
+
+Attrition increases with stock option level—opposite of typical expectations.
+
+Employees with Level 3 stock options leave at over 3× the rate of Level 0 employees.
+
+This suggests stock options may not be perceived as valuable or motivating, possibly due to slow vesting schedules or higher external opportunities for these roles.
+
+### Travel Needs
+
+Travel frequency has a strong impact on turnover:
+
+Frequent Travelers: 24.91% attrition
+
+Some Travel: 14.96% attrition
+
+No Travel: 8.00% attrition
+
+Frequent travel can lead to fatigue, reduced work–life balance, and dissatisfaction, all contributing to higher turnover.
+Employees with no travel obligations show the strongest retention.
+
+## 🛠 Recommendations
+
+Traditional HR analytics often relies on comparing multiple variables in isolation—for example, evaluating attrition separately by age, salary band, travel needs, overtime, and so on. While useful, this approach requires continuous manual cross-checking by analysts and HR teams to identify high-risk groups.
+
+**A far more elegant and scalable solution emerges from the integrated insights in this report.**
+
+### Implement a Unified “Attrition Risk Band” System
+
+Instead of analyzing individual variables one by one, HR should adopt a multi-dimensional risk band framework that consolidates all high-risk attributes into a single, easy-to-interpret structure.
+
+This framework gives HR a benchmark-wide, eagle-eye view of attrition drivers and lets them instantly identify employees who fall into any or multiple high-risk clusters.
+
+🔍 Why This Is Superior (and Future-Proof for 2025)
+
+No more manual cross-tab analysis
+Instead of checking age + salary + overtime + role separately, HR can immediately see whether an employee belongs to one or several risk bands.
+
+Captures compounding risk
+An employee who is:
+
+26–35
+
+In the ₹0–50K band
+
+Working overtime
+
+In a frequent-travel role
+is at exponentially elevated risk—not because of one variable, but because of the stacked effect.
+
+Brings enterprise-level maturity
+This approach mirrors modern People Analytics teams in top companies who manage attrition proactively through risk scoring models rather than static descriptive charts.
+
+Scalable and reusable
+As new factors emerge (remote work, AI skill mismatches, role digitization), they can be added to the risk band system without restructuring the analysis.
+
+Operationally simple for HR teams
+They only need to answer one question:
+“Does this employee fall into one or more high-risk bands?”
+If yes → flag early → intervene with precision.
+
+### 🚀 Outcome: A System That Predicts, Not Just Describes
+
+By shifting from variable-by-variable comparison to a unified risk band model, you transform attrition analytics from
+
+- ➡️ *reactive observation*
+into
+- ➡️ *proactive prevention.*
+
 
 
