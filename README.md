@@ -72,12 +72,15 @@ Key features include:
 The dashboard is published to the *Power BI Service* in a dedicated workspace for easy access, sharing, and collaboration.
 
 ![Dashboard](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dashboard%20Overview.gif)
+
 ## 💡 Insights & Recommendations
 
 ### Education Level
 
 Employees with No Formal Education show the highest attrition, indicating lower retention stability in this group.
 This aligns with industry patterns, where employees with fewer formal qualifications often transition more frequently due to limited growth opportunities or early-career mobility.
+
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 
 ### Age Groups
 
@@ -93,6 +96,8 @@ Higher expectations for growth and recognition
 Dissatisfaction when career progression stagnates
 
 As a result, employees in this group commonly exhibit the highest turnover.
+
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 
 ### Distance to Work
 
@@ -112,12 +117,13 @@ Work–life balance
 Overtime distribution
 
 A multi-factor analysis is recommended to understand why employees closest to the workplace experience elevated attrition.
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 
 ### Gender
 
 Male employees show a slightly higher attrition rate compared to Female and Non-Binary employees.
 The differences, however, are relatively small—indicating that gender is not a major driver of attrition relative to other factors like job role, age, commute, or overtime.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Job Role
 
 Attrition varies sharply by job category:
@@ -129,12 +135,12 @@ Recruiters also experience elevated turnover due to rapid workload cycles and ma
 Data Scientists show moderate attrition, matching industry norms where job switching is common due to strong demand and competitive pay.
 
 Technical roles such as Software Engineers, Machine Learning Engineers, and Senior Software Engineers show lower attrition, suggesting greater job stability and clearer career progression.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Marital Status
 
 Employees who are Single exhibit the highest attrition, nearly twice that of Married and Divorced employees.
 Married and Divorced groups show stronger stability, aligning with broader retention trends associated with life stage, mobility, and personal responsibilities.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Overtime
 
 Overtime is one of the strongest predictors of attrition.
@@ -151,7 +157,7 @@ Elevated workload or staffing gaps
 Lower satisfaction in high-demand environments
 
 Reducing overtime or redistributing workload could significantly improve retention.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Salary Group
 
 Attrition decreases steadily as salary increases:
@@ -167,7 +173,7 @@ Salary is a major attrition driver for early-career or lower-paid employees.
 Competitive compensation strategies and salary benchmarking can significantly reduce turnover.
 
 Higher salary bands maintain stronger retention due to greater job satisfaction, stability, and experience.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### State
 
 Geographical variation is modest but meaningful:
@@ -179,7 +185,7 @@ Illinois sits at a moderate level.
 New York shows the lowest attrition, reflecting comparatively stronger retention.
 
 Differences may stem from local job markets, cost of living, role distribution, and availability of career opportunities.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Stock Option Level
 
 Attrition increases with stock option level—opposite of typical expectations.
@@ -187,7 +193,7 @@ Attrition increases with stock option level—opposite of typical expectations.
 Employees with Level 3 stock options leave at over 3× the rate of Level 0 employees.
 
 This suggests stock options may not be perceived as valuable or motivating, possibly due to slow vesting schedules or higher external opportunities for these roles.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ### Travel Needs
 
 Travel frequency has a strong impact on turnover:
@@ -200,7 +206,7 @@ No Travel: 8.00% attrition
 
 Frequent travel can lead to fatigue, reduced work–life balance, and dissatisfaction, all contributing to higher turnover.
 Employees with no travel obligations show the strongest retention.
-
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Attrition%20%25%20by%20Education.png" height="400">
 ## 🛠 Recommendations
 
 Traditional HR analytics often relies on comparing multiple variables in isolation—for example, evaluating attrition separately by age, salary band, travel needs, overtime, and so on. While useful, this approach requires continuous manual cross-checking by analysts and HR teams to identify high-risk groups.
