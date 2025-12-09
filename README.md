@@ -16,8 +16,8 @@ Thanks for stopping by — hope you enjoy the project!
 |2.   |  [Dataset Overview](#dataset-overview)                              |
 |3.   |  [Data Pipeline (Dataflow Gen2)](#data-pipeline-(dataflow-gen2))                              |
 |4.   |  [Dashboard Highlights](#dashboard-highlights)                              |
-|5.   |  [Insights & Recommendations](#insights-&-recommendations)                              |
-|6.   |  [Recommendations](#decommendations)                              |
+|5.   |  [Insights](#insights)                              |
+|6.   |  [Recommendations](#recommendations)                              |
 ## 🎯Project Objective and What It Solves
 This project focuses on understanding **why employees leave** and identifying **which segments are most at risk** using a clean, high-information HR Attrition dashboard.
 
@@ -74,7 +74,7 @@ The dashboard is published to the *Power BI Service* in a dedicated workspace fo
 
 ![Dashboard](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dashboard%20Overview.gif)
 
-## 💡Insights & Recommendations
+## 💡Insights
 
 ### Education Level
 
