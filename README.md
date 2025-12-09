@@ -42,15 +42,20 @@ Key fields include:
 The dataset is fully anonymized and safe for public analytics use.
 
 ## 📊 Data Pipeline (Dataflow Gen2)  
-I used **Microsoft Fabric Dataflow Gen2** as the ETL layer.  
-Its purpose in this project:  
-- Ingest raw HR data  
-- Perform cleaning and type conversions  
-- Create derived bands (Age Band, Income Band, Tenure Group)  
-- Publish a **single clean table** ready for Power BI modeling  
-- Enable easy refresh & governance for enterprise-style workflows  
+I used Microsoft Fabric Dataflow Gen2 as the ETL layer for this project. Its purpose was to create a governed, enterprise-style data pipeline that feeds clean data into Power BI. Key responsibilities included:
 
-This design simulates a *real corporate setup* where analysts rely on governed, reusable dataflows.
+- Ingesting raw HR data into Fabric
+- Performing data cleaning, transformations, and type conversions
+- Creating derived analytical groups such as Age Band, Income Band, and Tenure Group
+- Publishing a single standardized table ready for Power BI modeling
+- Supporting easy refresh, governance, and reusability across the analytics workflow
+
+To make this pipeline fully functional, I had to learn and configure the **On-Premises Data Gateway**.
+Without the gateway, Fabric Dataflows cannot refresh or connect to local/on-premise data sources, so setting it up was essential for automated, reliable data ingestion.
+
+This approach mirrors how *real enterprise* teams build governed pipelines where analysts work from trusted, reusable datasets rather than raw files.
+
+<img src="https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dataflow%20Gen2%20Lineage.png" height="1000">
 
 ## 📊 Data Model & Metrics  
 A simple, clean model optimized for performance and readability.  
@@ -68,17 +73,20 @@ Field parameters are used to switch between:
 …without cluttering the canvas.
 
 ## 🖥 Dashboard Highlights  
-The report focuses on **clarity, readability, and high information density**.
+The report is designed with clarity, readability, and high information density at its core.
 
-**Features include:**  
-- One-page design with no visual overload  
-- Smart grouping of demographic, compensation, and job insights  
-- Interactive field parameters to flip between different views  
-- Clean visuals, light color palette, minimal text  
-- Dynamic segmentation to identify high-risk groups
+Key features include:
 
-The dashboard is intentionally designed to feel **modern, efficient, and recruiter-friendly**.
+- **One-page** layout with zero visual clutter
+- Smart grouping of demographics, compensation, and job-related insights
+- Interactive **field parameters** to switch between views seamlessly
+- Clean, modern visuals with a light color palette and minimal text
+- Dynamic segmentation to quickly identify high-risk employee groups
+- Optimized for **recruiters and HR leaders**, focusing on efficiency and decision-ready insights
 
+The dashboard is published to the *Power BI Service* in a dedicated workspace for easy access, sharing, and collaboration.
+
+![Dashboard](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/blob/main/Screenshots/Dashboard%20Overview.gif)
 ## 💡 Insights & Recommendations
 
 ### 🔍 Key Insights
