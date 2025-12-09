@@ -232,17 +232,6 @@ They only need to answer one question:
 
 ### “Does this employee fall into one or more high-risk bands?”
 
-If yes → flag early → intervene with precision.
+If yes ➤ flag early ➤ intervene with precision.
 
 #### 🚀 Outcome: A System That Predicts, Not Just Describes
-
-By shifting from variable-by-variable comparison to a unified risk band model, you transform attrition analytics from
-
-- *reactive observation*
-
-into
-
-- *proactive prevention.*
-
-
-
