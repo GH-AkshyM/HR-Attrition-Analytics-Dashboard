@@ -33,7 +33,7 @@ Deliver **maximum insight with minimal clutter**, using field parameters and a D
 [(Back to top)](#table-of-contents)
 
 ## 🗂Dataset Overview  
-A clean HR dataset containing demographic, job, compensation, and satisfaction variables.  
+A HR dataset containing demographic, job, compensation, and satisfaction variables.  
 Key fields include:  
 - Age, Gender, Education  
 - Department, Job Role, Job Level  
@@ -51,8 +51,8 @@ I used Microsoft Fabric Dataflow Gen2 as the ETL layer for this project. Its pur
 
 - Ingesting raw HR data into Fabric
 - Performing data cleaning, transformations, and type conversions
-- Creating derived analytical groups such as Age Band, Income Band, and Tenure Group
-- Publishing a single standardized table ready for Power BI modeling
+- Creating derived analytical groups such as Age Band, Income Band, and "Distance to work" groups.
+- Publishing standardized tables ready for Power BI modeling
 - Supporting easy refresh, governance, and reusability across the analytics workflow
 
 To make this pipeline fully functional, I had to learn and configure the **On-Premises Data Gateway**.
