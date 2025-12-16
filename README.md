@@ -221,13 +221,13 @@ Instead of analyzing individual variables one by one, HR should adopt a multi-di
 
 This framework gives HR a benchmark-wide, eagle-eye view of attrition drivers and lets them instantly identify employees who fall into any or multiple high-risk clusters.
 
-🔍 Why This Is Superior (and Future-Proof for 2025)
+#### 🔍 Why This Is Superior (and Future-Proof for 2025)
 
-No more manual cross-tab analysis
+**No more manual cross-tab analysis:**
 Instead of checking age + salary + overtime + role separately, HR can immediately see whether an employee belongs to one or several risk bands.
 
-Captures compounding risk
-An employee who is:
+**Captures compounding risk:**
+An employee who is,
 - 26–35
 - In the ₹0–50K band
 - Working overtime
