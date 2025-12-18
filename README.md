@@ -42,6 +42,9 @@ Key fields include:
 - Job Satisfaction, Work–Life Balance  
 - **Attrition (Yes/No)**
 
+You can find the dataset [here.](https://github.com/GH-AkshyM/HR-Attrition-Analytics-Dashboard/tree/main/Source%20Files)
+
+
 The dataset is fully anonymized and safe for public analytics use.
 
 [(Back to top)](#table-of-contents)
