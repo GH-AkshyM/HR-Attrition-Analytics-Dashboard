@@ -255,3 +255,7 @@ If yes ➤ flag early ➤ intervene with precision.
 
 [(Back to top)](#table-of-contents)
 
+## Check out some of my other works: 
+- 📦 **[Revenue Health Dashboard](https://github.com/GH-AkshyM/Revenue-Health-Dashboard/tree/main)** – Executive Revenue Dashboard for Higher-Ups, Simplyfy monthly reports.  
+- 📈 **[Sentiment Analysis Using BERT](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT)** – Using SQL and Python pre-trained models for analysing customer reviews.
+- 🔄 **[E-commerce Cohort Analytics Dashboard with Lakehouse on MS Fabric](https://github.com/GH-AkshyM/Cohort-Analytics-Dashboard-with-Lakehouse-on-MS-Fabric/tree/main)** – Cohort-based retention and revenue analytics using DirectQuery.  
