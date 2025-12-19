@@ -14,7 +14,7 @@ Thanks for stopping by — hope you enjoy the project!
 |:-: | :------------ | 
 |1.   |  [Project Objective and What It Solves](#project-objective-and-what-it-solves)                              |
 |2.   |  [Dataset Overview](#dataset-overview)                              |
-|3.   |  [Data Pipeline (Dataflow Gen2)](#data-pipeline-dataflow-gen2))                              |
+|3.   |  [Data Pipeline (Dataflow Gen2)](#data-pipeline-dataflow-gen2)                              |
 |4.   |  [Dashboard Highlights](#dashboard-highlights)                              |
 |5.   |  [Insights](#insights)                              |
 |6.   |  [Recommendations](#recommendations)                              |
